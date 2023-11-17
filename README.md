@@ -28,5 +28,9 @@ Here's a breakdown on some of the important columns in the dataset.
 
 (3) Dropped columns like 'user_id', 'recipe_id', 'date', 'contributor_id', 'review' and 'submitted' because I did not need them in the analysis that I was doing. 
 
+(4) In the nutrition column - it appears that each entry is a list when it is actually a string! Therefore, using the eval function I looped through each of the enteries and turned them into lists. Then, since the second element of the list refers to the total_fat, created a new column 'total_fat' which only has the fat portion of the nutrition list.
+
+(5) Just to keep numbers clean and to make them easier to work with, I rounded the floats in 'total_fat' and 'average_rating' to 2 decimal places. This is so that runtime is faster and it would be easier to work with. 
+
 
 
