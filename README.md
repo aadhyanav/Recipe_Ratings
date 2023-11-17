@@ -46,5 +46,5 @@ Here's a breakdown on some of the important columns in the dataset.
 | 412 broccoli casserole               | 306168 |        40 | ['60-minutes-or-less', 'time-to-make', 'course', 'main-ingredient', 'preparation', 'side-dishes', 'vegetables', 'easy', 'beginner-cook', 'broccoli']                                                                        | [194.8, 20.0, 6.0, 32.0, 22.0, 36.0, 3.0]    |         6 | since there are already 411 recipes for broccoli casserole posted to "zaar" ,i decided to call this one  #412 broccoli casserole.i don't think there are any like this one in the database. i based this one on the famous "green bean casserole" from campbell's soup. but i think mine is better since i don't like cream of mushroom soup.submitted to "zaar" on may 28th,2008 | ['frozen broccoli cuts', 'cream of chicken soup', 'sharp cheddar cheese', 'garlic powder', 'ground black pepper', 'salt', 'milk', 'soy sauce', 'french-fried onions']          |               9 |        5 |                5 |          20 |
 
 ### Univariate Analysis
-<iframe src="https://github.com/aadhyanav/Recipe_Ratings/blob/main/avg_rating.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="/Recipe_Ratings/avg_rating.html" width=800 height=600 frameBorder=0></iframe>
 
