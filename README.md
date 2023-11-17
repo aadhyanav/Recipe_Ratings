@@ -22,7 +22,9 @@ Here's a breakdown on some of the important columns in the dataset.
 ## Cleaning and Exploratory Data Analysis
 
 # Data Cleaning
-(1) Replaced all zeros with np.nan
+(1) Replaced all zeros with np.nan - This indicates that the values are actually missing instead of of low amount. For example, when we replace the 0 for np.nan in the ratings columns, it indicates that the value is actually missing instead of the recipe getting a low rating.
+(2) Created a series called 'avg_rating' based of the ratings columns - which instead took the average rating of each recipe since there were duplicates in the dataset. Then did a merge to add this column to the dataset.
+(3) Dropped columns like 'user_id', 'recipe_id', 'date', 'contributor_id', 'review' and 'submitted' because I did not need them in the analysis that I was doing. 
 
 
 
