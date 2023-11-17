@@ -21,7 +21,7 @@ Here's a breakdown on some of the important columns in the dataset.
 
 ## Cleaning and Exploratory Data Analysis
 
-# Data Cleaning
+### Data Cleaning
 
 (1) The data is broken down into 2 csv files: RAW_recipes.csv and RAW_interactions.csv. I merged both of the dataset with the common column 'id' which refers to the unique recipe id. Once I merged the datasets, the number of rows in the dataset were 234,429.
 
