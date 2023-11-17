@@ -51,6 +51,6 @@ This is a the average_rating column graphed in with the values frequency. Some o
 
 ### Bivariate Analysis
 <iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0></iframe>
-This is great 
+This visualization is a scatterplot with average rating on the x axis and total fat on the y axis. As pictured, we can see that as the ratings increase (reach the 4-5 range) there tends to be higher concentration of lower total fat values. However, there are a couple of 5 star rating recipes that have total fat values over 1000 and some in the 3000 range area. 
 
-### hello
+### Pivot Tables, Aggregate Statistics
