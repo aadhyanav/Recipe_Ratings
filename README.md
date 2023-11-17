@@ -12,7 +12,8 @@ The data is broken down into 2 csv files: RAW_recipes.csv and RAW_interactions.c
 'name': name of the recipe
 'id': unique id of recipe
 'nutrition': gives nutritional content of the recipe in the form of a list [calories, total fat, sugar, sodium, protein, saturated fat, carbs] ** for this particular analysis, we will be looking at the total fat content of each recipe!
+'ratings': ratings for each recipe
 
-As for my research question - I was curious on whether the 
+As for my research question - I was curious on whether the ratings had any relationship with the total fat content of each recipe. Therefore my question is ** Do recipes with higher average ratings tend to have lower levels of total fat? **
 
 ---
