@@ -21,7 +21,7 @@ Here's a breakdown on some of the important columns in the dataset.
 
 ## Cleaning and Exploratory Data Analysis
 
-#Data Cleaning
+# Data Cleaning
 
 
 
