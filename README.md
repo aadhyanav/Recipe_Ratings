@@ -50,3 +50,4 @@ Here's a breakdown on some of the important columns in the dataset.
 This is a the average_rating column graphed in with the values frequency. Some of the trends show slightpositive increase until the average rating reaches four until it declines until it reaches five for an extreme spike. There is a huge spike at five votes, as it has the maximum frequency count. 
 
 ### Bivariate Analysis
+<iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0></iframe>
