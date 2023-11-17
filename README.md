@@ -51,3 +51,6 @@ This is a the average_rating column graphed in with the values frequency. Some o
 
 ### Bivariate Analysis
 <iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0></iframe>
+This is great 
+
+### hello
