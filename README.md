@@ -1,2 +1,3 @@
-# Recipe_Ratings
-Project 3 for DSC80
+# DSC80 Project 3 - Recipes 
+
+by Aadhya Naveen (anaveen@ucsd.edu)
