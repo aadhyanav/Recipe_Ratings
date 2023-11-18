@@ -96,6 +96,7 @@ Rationale: If there is a higher number of steps, it suggests that the descriptio
 <iframe src="assets/steps.html" width=800 height=600 frameBorder=0></iframe>
 We then use a permuatation test to shuffle the n_steps columns 500 times.
 <iframe src="assets/dist.html" width=800 height=600 frameBorder=0></iframe>
+The observed statistic is 0.71 and p-value is 0.0 because the distribution is so far from the observed statistic. This means we reject the null, and accept the null hypothesis. Missingness of description is MAR because description is dependent on n_steps. We reject null hypothesis that description is not dependent on n_steps. 
 
 
 ## Hypothesis Testing
