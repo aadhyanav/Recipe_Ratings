@@ -81,7 +81,7 @@ This pivot table focuses on the identical columns but examines the median instea
 ## Assesment of Missingness
 
 ### NMAR analysis
-I think that the description column of the dataset is NMAR. 
+I think that the description column of the dataset is NMAR. It could be that users leave the description for a recipe as blank because they feel that adding a description takes too much time and they may feel that it is redundant. To make the description column as MAR and to see if it depends on external observations, we can see if the addition of a time taken to fill out the review survey is added to see if users are truly rushing to write their reviews and tend to skip out on the description because they feel that it takes to much time and because their recipe is self-explanatory.
 
 ### Missingness Dependency
 
