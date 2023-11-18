@@ -85,6 +85,15 @@ I think that the description column of the dataset is NMAR.
 
 ### Missingness Dependency
 
+Test #1
+Null Hypothesis (H0): The distribution of "n_steps" when the description is missing is identical to the distribution of "n_steps" when the description is not missing.
+
+Alternative Hypothesis (Alt Hyp): The distributions of "n_steps" are different between cases where the description is missing and cases where it is not.
+
+Observed Statistic: The difference in means between the two groups.
+
+Rationale: If there is a higher number of steps, it suggests that the description is more likely to be left blank. This is because detailed steps may make the inclusion of a description less necessary, leading to a potential difference in the distribution of "n_steps" between cases where the description is present and cases where it is missing.
+
 ## Hypothesis Testing
 H0: Average Ratings and total fat have no relationship, ratings are evenly distributed among different levels of fat 
 
