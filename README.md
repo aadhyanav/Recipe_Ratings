@@ -223,3 +223,15 @@ This visualization is a scatterplot with average rating on the x axis and total 
 |             4.98 |    40.9143  |
 |             4.99 |    83       |
 |             5    |    32.7525  |
+
+This pivot table shows the average fat concentration for each rating by decimal point. This was to see if there is a general decrease in fat levels when ratings increase, but it is hard to infer because of the number of unqiue ratings from the average.
+
+|   rating |   total_fat |
+|---------:|------------:|
+|        1 |     37.0564 |
+|        2 |     32.7669 |
+|        3 |     31.6405 |
+|        4 |     29.9404 |
+|        5 |     31.7924 |
+
+This is a pivot tabel that shows the mean total_fat for each rating in general. I used this because it is easier to look at since the cateogories for ratings are broader. As we can see in the pivot table, there seems to be a slight decrease in fat as ratings increase. The mean total fat is about 37 for when the rating is 1 star, versus the total fat being about 32 when the rating is 5. But considering the distribution of ratings, it could be that since there are less observations with lower ratings the means tend to be higher. 
