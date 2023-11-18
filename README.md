@@ -64,3 +64,7 @@ This visualization is a scatterplot with average rating on the x axis and total 
 |        5 |     31.7924 |
 
 This is a pivot tabel that shows the mean total_fat for each rating in general. I used this because it is easier to look at since the cateogories for ratings are broader. As we can see in the pivot table, there seems to be a slight decrease in fat as ratings increase. The mean total fat is about 37 for when the rating is 1 star, versus the total fat being about 32 when the rating is 5. But considering the distribution of ratings, it could be that since there are less observations with lower ratings the means tend to be higher. 
+
+## Assesment of Missingness
+
+### NMAR analysis
