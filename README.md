@@ -15,8 +15,11 @@ As for my research question - I was curious on whether the ratings had any relat
 
 Here's a breakdown on some of the important columns in the dataset.
 'name': name of the recipe
+
 'id': unique id of recipe
-'nutrition': gives nutritional content of the recipe in the form of a list [calories, total fat, sugar, sodium, protein, saturated fat, carbs] [NOTE]for this particular analysis, we will be looking at the total fat content of each recipe!
+
+'nutrition': gives nutritional content of the recipe in the form of a list [calories, total fat, sugar, sodium, protein, saturated fat, carbs] [NOTE] for this particular analysis, we will be looking at the total fat content of each recipe!
+
 'ratings': ratings for each recipe
 
 ---
@@ -47,11 +50,11 @@ Here's a breakdown on some of the important columns in the dataset.
 
 ### Univariate Analysis
 <iframe src="assets/average_rating.html" width=800 height=600 frameBorder=0></iframe>
-This is a the average_rating column graphed in with the values frequency. Some of the trends show slightpositive increase until the average rating reaches four until it declines until it reaches five for an extreme spike. There is a huge spike at five votes, as it has the maximum frequency count. 
+This is a the average_rating column graphed in with the values frequency. Some of the trends show a slight positive increase until the average rating reaches four until it declines until it reaches five for an extreme spike. There is a huge spike at five votes, as it has the maximum frequency count. 
 
 ### Bivariate Analysis
 <iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0></iframe>
-This visualization is a scatterplot with average rating on the x axis and total fat on the y axis. As pictured, we can see that as the ratings increase (reach the 4-5 range) there tends to be higher concentration of lower total fat values. However, there are a couple of 5 star rating recipes that have total fat values over 1000 and some in the 3000 range area. 
+This visualization is a scatterplot with average rating on the x-axis and total fat on the y-axis. As pictured, we can see that as the ratings increase (reach the 4-5 range) there tends to be higher concentration of lower total fat values. However, there are a couple of 5 star rating recipes that have total fat values over 1000 and some in the 3000 range area. 
 
 ### Pivot Tables, Aggregate Statistics
 
@@ -63,7 +66,17 @@ This visualization is a scatterplot with average rating on the x axis and total 
 |        4 |     29.9404 |
 |        5 |     31.7924 |
 
-This is a pivot tabel that shows the mean total_fat for each rating in general. I used this because it is easier to look at since the cateogories for ratings are broader. As we can see in the pivot table, there seems to be a slight decrease in fat as ratings increase. The mean total fat is about 37 for when the rating is 1 star, versus the total fat being about 32 when the rating is 5. But considering the distribution of ratings, it could be that since there are less observations with lower ratings the means tend to be higher. 
+This is a pivot tabel that shows the mean total_fat for each rating in general. I used this because it is easier to look at since the cateogories for ratings are broader versus average_rating which has sperates the rating by .1 which is hard to find trends with. As we can see in the pivot table, there seems to be a slight decrease in fat as ratings increase. The mean total fat is about 37 for when the rating is 1 star, versus the total fat being about 32 when the rating is 5. But considering the distribution of ratings, it could be that since there are less observations with lower ratings the means tend to be higher. 
+
+|   rating |   total_fat |
+|---------:|------------:|
+|        1 |          19 |
+|        2 |          20 |
+|        3 |          20 |
+|        4 |          19 |
+|        5 |          20 |
+
+This pivot table focuses on the identical columns but examines the median instead of the mean. Considering that the mean can be significantly impacted by outliers and distribution patterns, analyzing the median offers an alternative viewpoint on the distribution of the "total_fat" column concerning ratings.
 
 ## Assesment of Missingness
 
