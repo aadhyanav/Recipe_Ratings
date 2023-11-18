@@ -68,3 +68,16 @@ This is a pivot tabel that shows the mean total_fat for each rating in general. 
 ## Assesment of Missingness
 
 ### NMAR analysis
+I think that the description column of the dataset is NMAR. 
+
+### Missingness Dependency
+
+## Hypothesis Testing
+H0: Average Ratings and total fat have no relationship, ratings are evenly distributed among different levels of fat 
+H1: Recipes with average higher ratings tend to have lower levels of fat
+Differences in means - Test Statistic 
+Significance level - 0.05
+Observed Pvalue: 3.22
+Pvalue: 0.0
+Reject null hypothesis that the two groups come from the same distriibution, but cannot conclude that high rating causes lower fat
+
