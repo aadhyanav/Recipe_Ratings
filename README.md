@@ -94,6 +94,8 @@ Observed Statistic: The difference in means between the two groups.
 
 Rationale: If there is a higher number of steps, it suggests that the description is more likely to be left blank. This is because detailed steps may make the inclusion of a description less necessary, leading to a potential difference in the distribution of "n_steps" between cases where the description is present and cases where it is missing.
 <iframe src="assets/steps.html" width=800 height=600 frameBorder=0></iframe>
+We then use a permuatation test to shuffle the n_steps columns 500 times.
+
 
 ## Hypothesis Testing
 H0: Average Ratings and total fat have no relationship, ratings are evenly distributed among different levels of fat 
